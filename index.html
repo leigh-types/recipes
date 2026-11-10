@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes - Cook</title>
-    <link rel="icon" type="image/x-icon" href="/recipes/static/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/recipes/static/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/recipes/static/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/recipes/static/apple-touch-icon.png">
-    <link rel="manifest" href="/recipes/static/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="./static/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/apple-touch-icon.png">
+    <link rel="manifest" href="./static/site.webmanifest">
     
-    <link href="/recipes/static/css/output.css" rel="stylesheet">
+    <link href="./static/css/output.css" rel="stylesheet">
     <script>
         // Check for saved theme preference, or check for prefers-color-scheme, or default to light
         const theme = localStorage.getItem('theme')
@@ -63,7 +63,7 @@
             }
 
             /* Hide all navigation links */
-            a[href="/recipes/"] {
+            a[href="./"] {
                 display: none !important;
             }
 
@@ -243,8 +243,8 @@
         <nav class="nav-card relative">
             <div class="px-3 lg:px-6 py-4 relative">
                 <div class="flex items-center justify-between flex-wrap gap-y-3">
-                    <a href="/recipes/index.html" class="order-1 hidden md:flex items-center space-x-2">
-                        <img src="/recipes/static/android-chrome-192x192.png" alt="Cook" class="brand-mark h-8 w-8 rounded-md" width="32" height="32">
+                    <a href="./index.html" class="order-1 hidden md:flex items-center space-x-2">
+                        <img src="./static/android-chrome-192x192.png" alt="Cook" class="brand-mark h-8 w-8 rounded-md" width="32" height="32">
                     </a>
 
                     <div class="relative z-50 order-2 flex-1 md:ml-2 md:mr-4" id="search-container">
@@ -266,7 +266,7 @@
                     <div class="order-3 w-full md:w-auto flex items-center gap-1 lg:gap-2">
                         
                         <div class="hidden md:flex items-center gap-1 mr-2 lg:mr-4">
-                            <a href="/recipes/index.html"
+                            <a href="./index.html"
                                class="nav-pill active">
                                 Recipes
                             </a>
@@ -298,7 +298,7 @@
                             </button>
                             <div id="more-dropdown" class="hidden absolute right-0 mt-2 w-56 card shadow-[var(--shadow-overlay)] z-50 py-1">
                                 
-                                <a href="/recipes/index.html" class="menu-item active">
+                                <a href="./index.html" class="menu-item active">
                                     <span>🍳</span> <span>Recipes</span>
                                 </a>
                                 
@@ -350,93 +350,25 @@
     <div id="recipes-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         
         
-        <a href="/recipes/directory/_site.html" data-type="directory" data-name="_site" class="recipe-card">
+        <a href="./directory/_site.html" data-type="directory" data-name="_site" class="recipe-card">
             <div class="p-6 flex-1">
                 <div class="recipe-card-icon">
                     <span>📁</span>
                 </div>
                 <h2 class="recipe-card-title">_site</h2>
                 
-                <span class="text-sm text-accent-text font-medium">18 recipes</span>
+                <span class="text-sm text-accent-text font-medium">11 recipes</span>
                 
             </div>
         </a>
         
         
         
-        <a href="/recipes/directory/Breakfast.html" data-type="directory" data-name="Breakfast" class="recipe-card">
-            <div class="p-6 flex-1">
-                <div class="recipe-card-icon">
-                    <span>📁</span>
-                </div>
-                <h2 class="recipe-card-title">Breakfast</h2>
-                
-                <span class="text-sm text-accent-text font-medium">3 recipes</span>
-                
-            </div>
-        </a>
-        
-        
-        
-        <a href="/recipes/directory/Dinner.html" data-type="directory" data-name="Dinner" class="recipe-card">
-            <div class="p-6 flex-1">
-                <div class="recipe-card-icon">
-                    <span>📁</span>
-                </div>
-                <h2 class="recipe-card-title">Dinner</h2>
-                
-                <span class="text-sm text-accent-text font-medium">6 recipes</span>
-                
-            </div>
-        </a>
-        
-        
-        
-        <a href="/recipes/directory/Salads.html" data-type="directory" data-name="Salads" class="recipe-card">
-            <div class="p-6 flex-1">
-                <div class="recipe-card-icon">
-                    <span>📁</span>
-                </div>
-                <h2 class="recipe-card-title">Salads</h2>
-                
-                <span class="text-sm text-accent-text font-medium">1 recipe</span>
-                
-            </div>
-        </a>
-        
-        
-        
-        <a href="/recipes/menu/2 Day Plan.html"
+        <a href="./recipe/creme-bettraves.html"
            data-type="recipe"
-           data-name="2 Day Plan"
-           data-modified="1791215135"
-           data-created="1791215135"
-           class="recipe-card">
-            
-            <div class="p-6">
-                <div class="recipe-card-icon">
-                    <span>📋</span>
-                </div>
-            
-                <div class="flex flex-wrap items-center gap-2">
-                    <h2 class="recipe-card-title">2 Day Plan</h2>
-                    
-                    <span class="tag mb-2">Menu</span>
-                    
-                </div>
-                
-                
-                
-            </div>
-        </a>
-        
-        
-        
-        <a href="/recipes/recipe/Risotto.html"
-           data-type="recipe"
-           data-name="Classic Risotto alla Milanese"
-           data-modified="1791215135"
-           data-created="1791215135"
+           data-name="Crème de betteraves et beurre d&#x27;amande"
+           data-modified="1794326165"
+           data-created="1794321618"
            class="recipe-card">
             
             <div class="p-6">
@@ -445,7 +377,55 @@
                 </div>
             
                 <div class="flex flex-wrap items-center gap-2">
-                    <h2 class="recipe-card-title">Classic Risotto alla Milanese</h2>
+                    <h2 class="recipe-card-title">Crème de betteraves et beurre d&#x27;amande</h2>
+                    
+                </div>
+                
+                
+                
+            </div>
+        </a>
+        
+        
+        
+        <a href="./recipe/Easy French Ratatouille.html"
+           data-type="recipe"
+           data-name="Easy French Ratatouille"
+           data-modified="1791148771"
+           data-created="1794326613"
+           class="recipe-card">
+            
+            <div class="h-48 bg-sunk overflow-hidden">
+                <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_16:9/k%2Farchive%2F92146e3b2e0941f33e421c6a63951db0ed4a7c6b" alt="Easy French Ratatouille" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+            
+                <div class="flex flex-wrap items-center gap-2">
+                    <h2 class="recipe-card-title">Easy French Ratatouille</h2>
+                    
+                </div>
+                
+                
+                
+            </div>
+        </a>
+        
+        
+        
+        <a href="./recipe/Greek Chicken and Orzo Recipe.html"
+           data-type="recipe"
+           data-name="Greek Chicken and Orzo Recipe"
+           data-modified="1791216257"
+           data-created="1794326613"
+           class="recipe-card">
+            
+            <div class="h-48 bg-sunk overflow-hidden">
+                <img src="https://www.budgetbytes.com/wp-content/uploads/2025/01/Greek-Chicken-And-Orzo-Overhead.jpg" alt="Greek Chicken and Orzo Recipe" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+            
+                <div class="flex flex-wrap items-center gap-2">
+                    <h2 class="recipe-card-title">Greek Chicken and Orzo Recipe</h2>
                     
                 </div>
                 
@@ -453,11 +433,7 @@
                 
                 <div class="mt-3 flex flex-wrap gap-2">
                     
-                    <span class="tag">italian</span>
-                    
-                    <span class="tag">rice</span>
-                    
-                    <span class="tag">comfort food</span>
+                    <span class="tag">Greek Chicken and Orzo</span>
                     
                     
                 </div>
@@ -467,7 +443,7 @@
         
         
         
-        <a href="/recipes/recipe/Neapolitan Pizza.html"
+        <a href="./recipe/Neapolitan Pizza.html"
            data-type="recipe"
            data-name="Neapolitan Pizza"
            data-modified="1791215135"
@@ -500,7 +476,101 @@
         
         
         
-        <a href="/recipes/recipe/lamb-chops.html"
+        <a href="./recipe/One Pot Lemon Pepper Chicken with Orzo.html"
+           data-type="recipe"
+           data-name="One Pot Lemon Pepper Chicken with Orzo"
+           data-modified="1791149145"
+           data-created="1794326613"
+           class="recipe-card">
+            
+            <div class="h-48 bg-sunk overflow-hidden">
+                <img src="https://www.budgetbytes.com/wp-content/uploads/2022/07/One-Pot-Lemon-Pepper-Chicken-and-Orzo-H.jpg" alt="One Pot Lemon Pepper Chicken with Orzo" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+            
+                <div class="flex flex-wrap items-center gap-2">
+                    <h2 class="recipe-card-title">One Pot Lemon Pepper Chicken with Orzo</h2>
+                    
+                </div>
+                
+                
+                
+                <div class="mt-3 flex flex-wrap gap-2">
+                    
+                    <span class="tag">Chicken and orzo</span>
+                    
+                    <span class="tag">lemon pepper chicken</span>
+                    
+                    <span class="tag">One Pot Meal</span>
+                    
+                    
+                </div>
+                
+            </div>
+        </a>
+        
+        
+        
+        <a href="./recipe/Panfried scallops with white wine garlic sauce.html"
+           data-type="recipe"
+           data-name="Panfried scallops with white wine garlic sauce"
+           data-modified="1791215950"
+           data-created="1794326613"
+           class="recipe-card">
+            
+            <div class="h-48 bg-sunk overflow-hidden">
+                <img src="https://simply-delicious-food.com/wp-content/uploads/2020/02/White-wine-garlic-scallops-4.jpg" alt="Panfried scallops with white wine garlic sauce" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+            
+                <div class="flex flex-wrap items-center gap-2">
+                    <h2 class="recipe-card-title">Panfried scallops with white wine garlic sauce</h2>
+                    
+                </div>
+                
+                
+                
+                <div class="mt-3 flex flex-wrap gap-2">
+                    
+                    <span class="tag">How to cook scallops</span>
+                    
+                    <span class="tag">Panfried scallops</span>
+                    
+                    <span class="tag">Scallop recipes</span>
+                    
+                    
+                </div>
+                
+            </div>
+        </a>
+        
+        
+        
+        <a href="./recipe/Sheet-Pan Chicken and Asparagus With Olive-Yogurt Sauce.html"
+           data-type="recipe"
+           data-name="Sheet-Pan Chicken and Asparagus With Olive-Yogurt Sauce"
+           data-modified="1791147725"
+           data-created="1794326613"
+           class="recipe-card">
+            
+            <div class="h-48 bg-sunk overflow-hidden">
+                <img src="https://www.seriouseats.com/thmb/dLTaGgi0HSf6shbiASvxvzDgh3I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20250602-SEA-doublesaucechickensheetpan-AmandaSuarez-HERO-837a5f623c9d4a97b4dc7b6fbb1df2a4.jpg" alt="Sheet-Pan Chicken and Asparagus With Olive-Yogurt Sauce" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+            
+                <div class="flex flex-wrap items-center gap-2">
+                    <h2 class="recipe-card-title">Sheet-Pan Chicken and Asparagus With Olive-Yogurt Sauce</h2>
+                    
+                </div>
+                
+                
+                
+            </div>
+        </a>
+        
+        
+        
+        <a href="./recipe/lamb-chops.html"
            data-type="recipe"
            data-name="Sicilian-style Scottadito Lamb Chops"
            data-modified="1791215135"
@@ -533,7 +603,42 @@
         
         
         
-        <a href="/recipes/recipe/Thai Green Curry.html"
+        <a href="./recipe/Spanish Beef Stew With Pimenton and Piquillo Peppers.html"
+           data-type="recipe"
+           data-name="Spanish Beef Stew With Pimenton and Piquillo Peppers"
+           data-modified="1791147679"
+           data-created="1794326613"
+           class="recipe-card">
+            
+            <div class="h-48 bg-sunk overflow-hidden">
+                <img src="https://www.seriouseats.com/thmb/I1chslZy73gdvX54pdiX7dyM_ro=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20250922-SEA-20250922-SEA-SpanishBeefStew-AnhNguyen-33-0e6cde78796c47fab77b1d5e62a85126.jpg" alt="Spanish Beef Stew With Pimenton and Piquillo Peppers" class="w-full h-full object-cover">
+            </div>
+            <div class="p-6">
+            
+                <div class="flex flex-wrap items-center gap-2">
+                    <h2 class="recipe-card-title">Spanish Beef Stew With Pimenton and Piquillo Peppers</h2>
+                    
+                </div>
+                
+                
+                
+                <div class="mt-3 flex flex-wrap gap-2">
+                    
+                    <span class="tag">beef stew</span>
+                    
+                    <span class="tag">Spanish Beef Stew</span>
+                    
+                    <span class="tag">beef stew recipe</span>
+                    
+                    
+                </div>
+                
+            </div>
+        </a>
+        
+        
+        
+        <a href="./recipe/Thai Green Curry.html"
            data-type="recipe"
            data-name="Thai Green Curry"
            data-modified="1791215135"
@@ -562,32 +667,6 @@
                     
                     
                 </div>
-                
-            </div>
-        </a>
-        
-        
-        
-        <a href="/recipes/menu/Weekly Plan.html"
-           data-type="recipe"
-           data-name="Weekly Plan"
-           data-modified="1791215135"
-           data-created="1791215135"
-           class="recipe-card">
-            
-            <div class="p-6">
-                <div class="recipe-card-icon">
-                    <span>📋</span>
-                </div>
-            
-                <div class="flex flex-wrap items-center gap-2">
-                    <h2 class="recipe-card-title">Weekly Plan</h2>
-                    
-                    <span class="tag mb-2">Menu</span>
-                    
-                </div>
-                
-                
                 
             </div>
         </a>
@@ -622,19 +701,19 @@
     </script>
 
     
-    <script>window.__PREFIX__ = "/recipes";</script>
-    <script src="/recipes/static/js/search.js"></script>
+    <script>window.__PREFIX__ = ".";</script>
+    <script src="./static/js/search.js"></script>
     
 
     <!-- URL prefix for JavaScript -->
     <script>
-        window.__PREFIX__ = "/recipes";
+        window.__PREFIX__ = ".";
         window.__STATIC_MODE__ = true;
         window.__STRINGS__ = { close: "Close" };
     </script>
 
     <!-- Keyboard shortcuts -->
-    <script src="/recipes/static/js/keyboard-shortcuts.js"></script>
+    <script src="./static/js/keyboard-shortcuts.js"></script>
     <!-- Expose showShortcutsHelp globally for the help button -->
     <script>
         // showShortcutsHelp is defined in keyboard-shortcuts.js
